@@ -53,7 +53,30 @@ body {
     font-size: 1.2em;
     font-family:'Josefin Sans'
 }
-/* TEXT CSS START */
+
+body {
+    color: #1e1e1eff;
+}
+/* TEXT CSS END */
+
+/* HIGHLIGHT CSS START */
+
+.highlight {
+    /* color: #ea9999ff; */
+    /* color: ea9999ff; */
+}
+
+/* HIGHLIGHT CSS END */
+
+/* BACKGROUND */
+body {
+    background-color: #e5e5e5ff;
+}
+/* BACKGROUND */
+
+
+
+
 
 /* HOLY GRAIL CSS START */
 
@@ -159,6 +182,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 0.8em;
 }
 
 .footer-links {
@@ -216,7 +240,8 @@ body {
 }
 /* HERO SECTION CSS START */
 
-
+/* CONTENT SECTION CSS START */
+/* CONTENT SECTION CSS END */
 
 
 /* SECTION CSS START */
