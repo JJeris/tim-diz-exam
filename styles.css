@@ -134,3 +134,27 @@ div, footer, header, main, nav, aside {
 }
 /* HEADER CSS END */
 
+/* FOOTER CSS START */
+
+.footer-bar {
+    display: flex;
+    justify-content: space-between; /* Align children to opposite ends */
+    align-items: center; /* Center vertically */
+}
+
+.footer-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.footer-link {
+    flex: 1;
+}
+
+.footer-delimiter {
+    margin: auto; /* Pushes the following elements to the right */
+}
+
+/* FOOTER CSS END */
