@@ -48,6 +48,13 @@ table {
 }
 /* RESET CSS END*/
 
+/* TEXT CSS START */
+body {
+    font-size: 1.2em;
+    font-family:'Josefin Sans'
+}
+/* TEXT CSS START */
+
 /* HOLY GRAIL CSS START */
 
 .holyGrail {
@@ -78,6 +85,7 @@ table {
 .holyGrail-body {
   display: flex;
   flex-direction: column;
+  
 }
 
 @media (min-width: 768px) {
@@ -94,16 +102,25 @@ table {
   }
 }
 
-
-div, footer, header, main, nav, aside {
-    border: 1px solid red;
+/* When the screen size goes under this, execute these rules. */
+@media (max-width: 768px) {
+    .holyGrail-nav, .holyGrail-ads {
+        /* 12em is the width of the columns */
+        display: none;
+      }
 }
 
+/* DEBUG CSS END */
+/* div, footer, header, main, nav, aside {
+    border: 1px solid red;
+} */
+/* DEBUG CSS END */
 
 /* HOLY GRAIL CSS END */
 
 /* HEADER CSS END */
 .navigation-bar {
+    background-color: lightgray;
     display: flex;
     justify-content: space-between; /* Align children to opposite ends */
     align-items: center; /* Center vertically */
@@ -137,6 +154,8 @@ div, footer, header, main, nav, aside {
 /* FOOTER CSS START */
 
 .footer-bar {
+    padding: 10px 0px 10px 0px;
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,6 +169,7 @@ div, footer, header, main, nav, aside {
 
 .footer-link {
     flex: 1;
+    margin: 0 5px; /* Add margin to create space between footer links */
     text-align: center;
 }
 
@@ -157,13 +177,47 @@ div, footer, header, main, nav, aside {
     margin-top: 5px;
 }
 
+.footer-bar > .footer-links > .footer-link > a > img {
+    max-width: 56px;
+    max-height: auto;
+}
 
 /* FOOTER CSS END */
 
-
-/* TEXT CSS START */
-body {
-    font-size: 1.2em;
-    font-family:'Josefin Sans'
+/* SECTION CSS START */
+.section-delimiter {
+    background-color: lightgray;
+    padding: 1.5px;
 }
-/* TEXT CSS START */
+
+/* HERO SECTION CSS START */
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    margin: 20px; 
+}
+
+#hero-section img {
+    width: 100%; /* Make the image stretch to fill the container */
+    max-width: 100%; /* Limit the maximum width of the image */
+    max-height: 500px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+#hero-section div {
+    text-align: center; /* Center the text */
+}
+
+.hero-section-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* HERO SECTION CSS START */
+
+
+
+
+/* SECTION CSS START */
+
