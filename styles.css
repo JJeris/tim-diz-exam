@@ -103,6 +103,34 @@ div, footer, header, main, nav, aside {
 /* HOLY GRAIL CSS END */
 
 /* HEADER CSS END */
+.navigation-bar {
+    display: flex;
+    justify-content: space-between; /* Align children to opposite ends */
+    align-items: center; /* Center vertically */
+}
 
+.nav-cell {
+    flex: 1;
+
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    flex: 1;
+    /* margin: auto; */
+}
+
+.nav-delimiter {
+    margin-left: auto; /* Pushes the following elements to the right */
+}
+
+.nav-sections {
+    display: flex;
+}
 /* HEADER CSS END */
 
