@@ -49,86 +49,60 @@ table {
 /* RESET CSS END*/
 
 /* HOLY GRAIL CSS START */
-body, header, main, footer {
-    margin: 0;
-    padding: 0;
-}
 
-/* Setting full width for header and footer */
-header, footer {
-    width: 100%;
-}
-
-/* Adding some style to the navigation */
-header nav {
-    background-color: #333;
-    color: #fff;
-}
-
-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.holyGrail {
     display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
-
-header nav ul li {
-    margin-right: 20px;
-}
-
-header nav ul li:last-child {
-    margin-right: 0;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Creating the flex container for the main content */
-main {
+  
+.holyGrail-body {
     display: flex;
-    flex-direction: column; /* Set the main container to column layout */
-    min-height: 100vh; /* Ensure the main container stretches to the full height of the viewport */
-}
-
-/* Adjusting the flex properties to fill the space */
-main > .column-container {
-    flex: 1; /* Fill remaining space */
-    display: flex;
-}
-
-/* Creating equal-width columns */
-.column {
     flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
+}
+.holyGrail-content {
+    flex: 1;
+}
+  
+.holyGrail-nav, .holyGrail-ads {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+}
+  
+.holyGrail-nav {
+    /* put the nav on the left */
+    order: -1;
 }
 
-/* Styling the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+.holyGrail,
+.holyGrail-body {
+  display: flex;
+  flex-direction: column;
 }
 
-footer ul {
-    list-style-type: none;
+@media (min-width: 768px) {
+  .holyGrail-body {
+    flex-direction: row;
+    flex: 1;
+  }
+  .holyGrail-content {
+    flex: 1;
+  }
+  .holyGrail-nav, .holyGrail-ads {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+  }
 }
 
-footer ul li {
-    display: inline;
-    margin-right: 10px;
+
+div, footer, header, main, nav, aside {
+    border: 1px solid red;
 }
 
-footer ul li:last-child {
-    margin-right: 0;
-}
 
-footer ul li a {
-    color: #fff;
-    text-decoration: none;
-}
 /* HOLY GRAIL CSS END */
+
+/* HEADER CSS END */
+
+/* HEADER CSS END */
 
