@@ -96,8 +96,8 @@ body {
   
 .holyGrail-nav, .holyGrail-ads {
     /* 12em is the width of the columns */
-    flex: 0 0 12em;
-    /* flex: 0 0 16em; */
+    /* flex: 0 0 12em; */
+    flex: 0 0 20em;
 }
   
 .holyGrail-nav {
@@ -267,6 +267,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center the content horizontally */
+    padding-left: 8em;
+    padding-right: 8em;
 }
 
 .section-heading {
@@ -274,18 +276,40 @@ body {
     margin-bottom: 20px; /* Add margin for spacing */
 }
 
-.content-section-subsection {
+/* .content-section-subsection {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px; /* Add margin between subsections */
+    margin-bottom: 20px;
 }
 
 .content-section-text {
-    margin-bottom: 10px; /* Add margin for spacing */
+    margin-bottom: 10px; 
 }
 
 .content-section-image {
-    align-self: center; /* Center the image within its subsection */
+    align-self: center; 
+} */
+
+.content-section-subsection {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.content-section-text {
+    flex: 1; /* Take remaining space */
+    margin-right: 20px; /* Add margin to create space between text and image */
+}
+
+.content-section-image {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    order: 1; /* Change the order to appear after the text */
+}
+
+.content-section-image > img {
+    height: 200px;
+    width: 200px;
 }
 
 /* CONTENT SECTION CSS END */
