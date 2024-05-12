@@ -97,6 +97,7 @@ body {
 .holyGrail-nav, .holyGrail-ads {
     /* 12em is the width of the columns */
     flex: 0 0 12em;
+    /* flex: 0 0 16em; */
 }
   
 .holyGrail-nav {
@@ -121,7 +122,7 @@ body {
   }
   .holyGrail-nav, .holyGrail-ads {
     /* 12em is the width of the columns */
-    flex: 0 0 12em;
+    /* flex: 0 0 12em; */
   }
 }
 
@@ -133,13 +134,21 @@ body {
       }
 }
 
+@media (orientation: portrait) {
+    .holyGrail-nav, .holyGrail-ads {
+        /* display: none; */
+        flex: 0 0 6em;
+    }
+}
+
+/* HOLY GRAIL CSS END */
+
 /* DEBUG CSS END */
 /* div, footer, header, main, nav, aside {
     border: 1px solid red;
 } */
 /* DEBUG CSS END */
 
-/* HOLY GRAIL CSS END */
 
 /* HEADER CSS END */
 .navigation-bar {
@@ -151,7 +160,11 @@ body {
 
 .nav-cell {
     flex: 1;
+}
 
+.nav-cell > a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav-logo {
@@ -172,6 +185,7 @@ body {
 .nav-sections {
     display: flex;
 }
+
 /* HEADER CSS END */
 
 /* FOOTER CSS START */
@@ -211,7 +225,13 @@ body {
 /* SECTION CSS START */
 .section-delimiter {
     background-color: lightgray;
-    padding: 1.5px;
+    padding: 1.2px;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+.section-heading {
+    font-size: 2.2em
 }
 
 /* HERO SECTION CSS START */
@@ -235,12 +255,39 @@ body {
 }
 
 .hero-section-text {
+    font-size: 1.4em;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 /* HERO SECTION CSS START */
 
 /* CONTENT SECTION CSS START */
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+}
+
+.section-heading {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.content-section-subsection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Add margin between subsections */
+}
+
+.content-section-text {
+    margin-bottom: 10px; /* Add margin for spacing */
+}
+
+.content-section-image {
+    align-self: center; /* Center the image within its subsection */
+}
+
 /* CONTENT SECTION CSS END */
 
 
