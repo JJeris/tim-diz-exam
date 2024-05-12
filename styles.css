@@ -70,7 +70,11 @@ body {
 
 /* BACKGROUND */
 body {
-    background-color: rgb(241, 241, 241);
+    background-color:  #e5e5e5ff;
+}
+
+body > .holyGrail-body > .holyGrail-content {
+    background-color:rgb(241, 241, 241);
 }
 /* BACKGROUND */
 
@@ -97,7 +101,8 @@ body {
 .holyGrail-nav, .holyGrail-ads {
     /* 12em is the width of the columns */
     /* flex: 0 0 12em; */
-    flex: 0 0 20em;
+    /* flex: 0 0 20em; */
+    flex: 0 0 32em; 
 }
   
 .holyGrail-nav {
@@ -144,9 +149,9 @@ body {
 /* HOLY GRAIL CSS END */
 
 /* DEBUG CSS END */
-div, footer, header, main, nav, aside {
+/* div, footer, header, main, nav, aside {
     border: 1px solid red;
-}
+} */
 /* DEBUG CSS END */
 
 
@@ -225,7 +230,7 @@ div, footer, header, main, nav, aside {
 /* SECTION CSS START */
 .section-delimiter {
     background-color: lightgray;
-    padding: 1.2px;
+    padding: 2px;
     margin-top: 1.2em;
     margin-bottom: 1.2em;
 }
@@ -269,6 +274,7 @@ div, footer, header, main, nav, aside {
     align-items: center; /* Center the content horizontally */
     padding-left: 8em;
     padding-right: 8em;
+    /* box-shadow: 20px 0px 100px 20px rgba(0, 0, 0, 0.1);  */
 }
 
 .section-heading {
