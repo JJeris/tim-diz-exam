@@ -1,0 +1,76 @@
+/* BACKGROUND */
+body {
+    background-color:  #e5e5e5ff;
+}
+
+body > .holyGrail-body > .holyGrail-content {
+    background-color:rgb(241, 241, 241);
+}
+/* BACKGROUND */
+
+/* HOLY GRAIL CSS START */
+
+.holyGrail {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+  
+.holyGrail-body {
+    display: flex;
+    flex: 1;
+}
+.holyGrail-content {
+    flex: 1;
+}
+  
+.holyGrail-nav, .holyGrail-ads {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+    /* flex: 0 0 20em; */
+    /* flex: 0 0 32em;  */
+}
+  
+.holyGrail-nav {
+    /* put the nav on the left */
+    order: -1; /* Redundant, if you order the columns in html.*/
+}
+
+.holyGrail,
+.holyGrail-body {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+@media (min-width: 768px) {
+    .holyGrail-body {
+      flex-direction: row;
+      flex: 1;
+    }
+    .holyGrail-content {
+      flex: 1;
+    }
+    .holyGrail-nav, .holyGrail-ads {
+      /* 12em is the width of the columns */
+      /* flex: 0 0 12em; */
+    }
+  }
+  
+  /* When the screen size goes under this, execute these rules. */
+  @media (max-width: 768px) {
+      .holyGrail-nav, .holyGrail-ads {
+          /* 12em is the width of the columns */
+          display: none;
+        }
+  }
+  
+  @media (orientation: portrait) {
+      .holyGrail-nav, .holyGrail-ads {
+          /* display: none; */
+          flex: 0 0 6em;
+      }
+  }
+  
+  /* HOLY GRAIL CSS END */
