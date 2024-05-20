@@ -1,18 +1,22 @@
 :root {
     --background-color-body-start: rgb(148, 148, 248);
+    /* Todo add this to the gradient */
+    --background-color-body-middle: white; 
     --background-color-body-end: white;
     /* rgb(166, 166, 250); */
     --background-color-section: #e5e5e5ff;
     --text-color: #1e1e1eff;
-    --navbar-color: rgb(148, 148, 248);
+    --background-navbar-color: rgb(148, 148, 248);
     --section-delimiter-color: rgba(233, 229, 229, 0.948);
     /* #6a6affff; */
     --highlight-color: #ea9999ff;
     
+
+    --background-color-footer: rgb(233, 233, 233);   
 }
 
 body.dark-mode {
-    --navbar-color:#ea9999ff
+    --background-navbar-color:#ea9999ff;
     --background-color: #1e1e1eff;
     --text-color: #e5e5e5ff;
 }
