@@ -1,5 +1,5 @@
 .navigation-bar {
-    background-color: var(--navbar-color);
+    background-color: var(--background-navbar-color);
     color: var(--text-color);
     display: flex;
     justify-content: space-between; 
@@ -9,6 +9,10 @@
 .navigation-bar {
     padding-top: var(--navbar-horizontal-padding);
     padding-bottom: var(--navbar-horizontal-padding);
+}
+
+.nav-cell {
+    flex: 1;
 }
 
 .nav-logo {
@@ -55,19 +59,13 @@
     flex: 1;
 }
 
-.nav-cell {
-    flex: 1;
-}
-
 .nav-section-child {
     font-size: var(--navbar-section-children-font-size);
     text-align: center;
     padding: 0 10px;
 }
 
-
 .navigation-redirect-link {
     text-decoration: none;
     color: inherit;
 }
-

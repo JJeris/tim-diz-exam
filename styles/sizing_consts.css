@@ -1,4 +1,12 @@
 :root {
     --sidebar-width: 12em;
+
     --navbar-horizontal-padding: 0.28em;
+
+
+
+    --footer-horizontal-padding: 10px;
+    --footer-link-margin: 0 5px;
+    --footer-text-margin-top: 5px;
+    --footer-link-img-width: 56px;
 }
