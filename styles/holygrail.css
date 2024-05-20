@@ -1,12 +1,18 @@
-/* BACKGROUND */
 body {
-    background-color:  #e5e5e5ff;
+    background: linear-gradient(to bottom, var(--background-color-body-start) 0%, var(--background-color-body-end) 120%);
 }
 
 body > .holyGrail-body > .holyGrail-content {
     background-color:rgb(241, 241, 241);
 }
-/* BACKGROUND */
+
+.section-delimiter {
+    background-color: var(--section-delimiter-color);
+    /* var(--delimiter-color); */
+    padding: 2px;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
 
 /* HOLY GRAIL CSS START */
 
@@ -26,7 +32,7 @@ body > .holyGrail-body > .holyGrail-content {
   
 .holyGrail-nav, .holyGrail-ads {
     /* 12em is the width of the columns */
-    flex: 0 0 12em;
+    flex: 0 0 var(--sidebar-width);
     /* flex: 0 0 20em; */
     /* flex: 0 0 32em;  */
 }
@@ -73,4 +79,97 @@ body > .holyGrail-body > .holyGrail-content {
       }
   }
   
-  /* HOLY GRAIL CSS END */
+/* HOLY GRAIL CSS END */
+
+  
+/* SECTION CSS START */
+
+
+.section-heading {
+    font-size: var(--section-heading-font-size)
+}
+
+/* HERO SECTION CSS START */
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    margin: 20px; 
+}
+
+#hero-section img {
+    width: 100%; /* Make the image stretch to fill the container */
+    max-width: 100%; /* Limit the maximum width of the image */
+    max-height: 500px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+#hero-section div {
+    text-align: center; /* Center the text */
+}
+
+.hero-section-text {
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* HERO SECTION CSS START */
+
+/* CONTENT SECTION CSS START */
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    padding-left: 8em;
+    padding-right: 8em;
+    /* box-shadow: 20px 0px 100px 20px rgba(0, 0, 0, 0.1);  */
+}
+
+.section-heading {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+/* .content-section-subsection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.content-section-text {
+    margin-bottom: 10px; 
+}
+
+.content-section-image {
+    align-self: center; 
+} */
+
+.content-section-subsection {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.content-section-text {
+    flex: 1; /* Take remaining space */
+    margin-right: 20px; /* Add margin to create space between text and image */
+}
+
+.content-section-image {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    order: 1; /* Change the order to appear after the text */
+}
+
+.content-section-image > img {
+    height: 200px;
+    width: 200px;
+}
+
+/* CONTENT SECTION CSS END */
+
+
+/* SECTION CSS START */
+

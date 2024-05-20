@@ -1,0 +1,34 @@
+
+/* FOOTER CSS START */
+
+.footer-bar {
+    padding: 10px 0px 10px 0px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.footer-link {
+    flex: 1;
+    margin: 0 5px; /* Add margin to create space between footer links */
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 5px;
+}
+
+.footer-bar > .footer-links > .footer-link > a > img {
+    max-width: 56px;
+    max-height: auto;
+}
+
+/* FOOTER CSS END */
