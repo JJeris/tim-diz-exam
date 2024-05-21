@@ -16,6 +16,7 @@
 }
 
 .hero-section-text {
+    color: var(--text-color);
     font-size: var(--hero-section-text-font-size);
     text-align: center; /* Center the text */
     margin-top: var(--hero-section-horizontal-padding);

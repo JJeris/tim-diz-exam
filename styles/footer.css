@@ -24,6 +24,7 @@
 }
 
 .footer-text {
+    color: var(--text-color);
     margin-top: var(--footer-text-margin-top);
 }
 
