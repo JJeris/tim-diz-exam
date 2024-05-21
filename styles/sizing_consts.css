@@ -1,15 +1,20 @@
 :root {
-    --sidebar-width: 12em;
+    --sidebar-width: 32em;
+    /* On laptop */
+    /* 12em; */ 
+    /* On Monitor */
+    /* 32em */
+    
 
     --navbar-horizontal-padding: 0.28em;
 
     --section-delimiter-horizontal-padding: 1.2em;
-
+    
 
     --hero-section-image-max-width: 1000px;
     --hero-section-horizontal-padding: 1em;
 
-
+    --content-section-sidebar-padding: 6em; 
 
 
 

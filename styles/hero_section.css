@@ -20,4 +20,5 @@
     text-align: center; /* Center the text */
     margin-top: var(--hero-section-horizontal-padding);
     margin-bottom: var(--hero-section-horizontal-padding);
+    font-weight: bold;
 }
