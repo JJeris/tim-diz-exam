@@ -1,6 +1,6 @@
 :root {
     --logo-font-size: 1.6em;
-    --navbar-section-children-font-size: 0.9em;
+    --navbar-section-children-font-size: 1.2em;
     
     
     --section-heading-font-size: 2.8em;
@@ -9,5 +9,7 @@
     --hero-section-horizontal-margin: 1.6em;
     --hero-section-text-font-size: 1.6em;
     
+    --content-section-text-font-size: 1.35em;
+
     --footer-font-size: 0.8em;
 }
