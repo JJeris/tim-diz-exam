@@ -1,0 +1,17 @@
+.section-delimiter {
+    background-color: var(--section-delimiter-color);
+    padding: 2px;
+    margin-top: var(--section-delimiter-horizontal-padding);
+    margin-bottom: var(--section-delimiter-horizontal-padding);
+}
+
+.section-heading {
+    font-size: var(--section-heading-font-size)
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+
