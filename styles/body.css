@@ -1,0 +1,7 @@
+body {
+    background: linear-gradient(to bottom, var(--background-color-body-start) 0%, var(--background-color-body-end) 120%);
+}
+
+body > .holyGrail-body > .holyGrail-content {
+    background-color: var(--background-holyGrail-content);
+}
