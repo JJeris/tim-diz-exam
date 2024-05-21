@@ -38,12 +38,11 @@
 
         <div class="nav-cell nav-delimiter"></div>
         
-        <div class="nav-cell nav-theme-changer">
-            <img src="./assets/theme.svg" alt="" class="theme-changer">
-            <!-- <button id="mode-toggle">Toggle Mode</button> -->
-        </div>
-        
         <div class="nav-cell nav-sections">
+            <div class="nav-cell nav-theme-changer">
+                <img src="./assets/black-circle-svgrepo-com.svg" alt="Change Theme" class="theme-changer" id="theme-toggle" onclick="changeTheme()">
+            </div>
+            
             <div class="nav-cell nav-section-child"><a class="navigation-redirect-link" href="#intereses">Hobiji</a></div>
             <div class="nav-cell nav-section-child"><a class="navigation-redirect-link" href="#vidusskola">Vidusskola</a></div>
             <div class="nav-cell nav-section-child"><a class="navigation-redirect-link" href="#studenti">Studenti</a></div>
@@ -162,8 +161,17 @@
         <div class="footer-text">Copyright © 2024 Johans Justs Eris - All Rights Reserved.</div>
     </footer>
     <script>
-        document.getElementById('mode-toggle').addEventListener('click', function() {
-            document.body.classList.toggle('dark-mode');
+        function changeTheme() {
+            var img = document.getElementById("theme-toggle");
+            if (img.src.includes("black-circle-svgrepo-com.svg")) {
+                img.src = "./assets/white-circle-svgrepo-com.svg";
+            } else {
+                img.src = "./assets/black-circle-svgrepo-com.svg";
+            }
+        }
+        document.getElementById('theme-toggle').addEventListener('click', function() {
+            console.log('Hello, World!');
+            document.body.classList.toggle('dark-mode'); // This will toggle the dark mode if you still want to keep this functionality.
         });
     </script>
 </body>

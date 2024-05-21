@@ -6,7 +6,6 @@
     
     --background-navbar-color: #b9b9f7;
 
-    /* rgb(166, 166, 250); */
     --background-holyGrail-content: rgb(241, 241, 241);
     --background-color-section: #e5e5e5ff;
     
@@ -21,7 +20,22 @@
 }
 
 body.dark-mode {
-    --background-navbar-color:#ea9999ff;
-    --background-color: #1e1e1eff;
+    --background-color-body-start: #1e1e1eff;
+    /* Todo add this to the gradient */
+    --background-color-body-middle: #1e1e1eff; 
+    --background-color-body-end: rgb(182, 182, 182);
+
+    --background-navbar-color: #1e1e1eff;
+
+    --background-holyGrail-content: rgb(19, 19, 19);
+    --background-color-section: #e5e5e5ff;
+
     --text-color: #e5e5e5ff;
+
+    --section-delimiter-color: rgba(87, 87, 87, 0.948);
+    /* #6a6affff; */
+    --highlight-color: #ea9999ff;
+    
+
+    --background-color-footer: rgb(82, 82, 82);   
 }
