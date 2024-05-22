@@ -18,6 +18,52 @@
     --footer-link-img-width: 56px;
 }
 
+@media (min-width: 2000px) {
+    :root {
+        --sidebar-width: 302em;
+    
+        --navbar-horizontal-padding: 0.28em;
+    
+        --section-delimiter-horizontal-padding: 1.2em;
+        
+        --hero-section-image-max-width: 1000px;
+        --hero-section-horizontal-padding: 1em;
+    
+        --content-section-sidebar-padding: 4em; 
+    
+        --content-section-subsection-horizontal-padding: 20px;
+    
+        --footer-horizontal-padding: 10px;
+        --footer-link-margin: 0 5px;
+        --footer-text-margin-top: 5px;
+        --footer-link-img-width: 56px;
+    }
+    
+}
+
+@media (min-width: 1366px) {
+    :root {
+        --sidebar-width: 12em;
+        --navbar-horizontal-padding: 0.20em;
+        --section-delimiter-horizontal-padding: 0.8em;
+
+        --hero-section-image-max-width: 480px;
+        
+        --hero-section-horizontal-padding: 0.8em;
+        --content-section-sidebar-padding: 1.8em;
+        --content-section-subsection-horizontal-padding: 8px;
+
+
+
+        --footer-horizontal-padding: 6px;
+
+        
+        --footer-link-margin: 0 4px;
+        --footer-text-margin-top: 4px;
+        --footer-link-img-width: 36px;
+    }
+}
+
 /* For screen width of 1366px */
 @media (max-width: 1366px) {
     :root {
@@ -29,35 +75,56 @@
         
         --hero-section-horizontal-padding: 0.8em;
         --content-section-sidebar-padding: 1.8em;
+        --content-section-subsection-horizontal-padding: 8px;
 
 
 
-
-
+        --footer-horizontal-padding: 6px;
 
         
-        --content-section-subsection-horizontal-padding: 15px;
-        --footer-horizontal-padding: 8px;
         --footer-link-margin: 0 4px;
         --footer-text-margin-top: 4px;
-        --footer-link-img-width: 48px;
+        --footer-link-img-width: 36px;
     }
 }
 
-/* 
-@media (max-width: 400px) {
+@media (max-width: 1066px) {
+    :root {
+        --sidebar-width: 2em;
+    }
+    
+}
+
+
+/* @media (max-width: 1024px) {
     :root {
         --sidebar-width: 20em;
         --navbar-horizontal-padding: 0.2em;
         --section-delimiter-horizontal-padding: 0.8em;
-        --hero-section-image-max-width: 300px;
-        --hero-section-horizontal-padding: 0.5em;
-        --content-section-sidebar-padding: 1.5em;
-        --content-section-subsection-horizontal-padding: 10px;
-        --footer-horizontal-padding: 5px;
-        --footer-link-margin: 0 2px;
+        --hero-section-image-max-width: 600px;
+        --hero-section-horizontal-padding: 0.6em;
+        --content-section-sidebar-padding: 2.5em;
+        --content-section-subsection-horizontal-padding: 12px;
+        --footer-horizontal-padding: 6px;
+        --footer-link-margin: 0 3px;
         --footer-text-margin-top: 3px;
         --footer-link-img-width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --sidebar-width: 15em;
+        --navbar-horizontal-padding: 0.15em;
+        --section-delimiter-horizontal-padding: 0.6em;
+        --hero-section-image-max-width: 400px;
+        --hero-section-horizontal-padding: 0.4em;
+        --content-section-sidebar-padding: 2em;
+        --content-section-subsection-horizontal-padding: 10px;
+        --footer-horizontal-padding: 4px;
+        --footer-link-margin: 0 2px;
+        --footer-text-margin-top: 2px;
+        --footer-link-img-width: 32px;
     }
 
     body.holyGrail {
@@ -89,5 +156,21 @@
     .footer-links {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    :root {
+        --sidebar-width: 10em;
+        --navbar-horizontal-padding: 0.1em;
+        --section-delimiter-horizontal-padding: 0.4em;
+        --hero-section-image-max-width: 300px;
+        --hero-section-horizontal-padding: 0.3em;
+        --content-section-sidebar-padding: 1.5em;
+        --content-section-subsection-horizontal-padding: 8px;
+        --footer-horizontal-padding: 3px;
+        --footer-link-margin: 0 1px;
+        --footer-text-margin-top: 1px;
+        --footer-link-img-width: 24px;
     }
 } */
