@@ -69,3 +69,17 @@
     text-decoration: none;
     color: inherit;
 }
+
+
+:root {
+    --logo-color-light: black;
+    --logo-color-dark: white;
+}
+
+.logo-img {
+    color: var(--logo-color-light);
+}
+
+.dark-mode .logo-img {
+    color: var(--logo-color-dark);
+}
