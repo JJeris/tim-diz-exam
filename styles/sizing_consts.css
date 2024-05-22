@@ -20,7 +20,7 @@
 
 @media (min-width: 2000px) {
     :root {
-        --sidebar-width: 302em;
+        --sidebar-width: 32em;
     
         --navbar-horizontal-padding: 0.28em;
     
