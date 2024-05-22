@@ -168,11 +168,9 @@
             } else {
                 img.src = "./assets/black-circle-svgrepo-com.svg";
             }
+            document.body.classList.toggle('dark-mode'); 
         }
-        document.getElementById('theme-toggle').addEventListener('click', function() {
-            console.log('Hello, World!');
-            document.body.classList.toggle('dark-mode'); // This will toggle the dark mode if you still want to keep this functionality.
-        });
+
     </script>
 </body>
 </html>
