@@ -11,6 +11,8 @@
     --section-delimiter-color: #e9e5e5f2;
     
     --background-color-footer: rgb(243, 243, 243);   
+
+    --highlighted-text-color:  rgb(35, 138, 255);
 }
 
 body.dark-mode {
@@ -29,4 +31,6 @@ body.dark-mode {
     
 
     --background-color-footer: rgb(82, 82, 82);   
+
+    --highlighted-text-color:  rgb(158, 231, 249);
 }

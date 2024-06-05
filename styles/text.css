@@ -2,3 +2,12 @@
 body {
     font-family:'Josefin Sans'
 }
+
+.highlighted-text {
+    text-decoration: none;
+    font-style: italic;
+    color: var(--highlighted-text-color);
+     /* rgb(35, 138, 255);  */
+    /* rgb(158, 231, 249); */
+
+}

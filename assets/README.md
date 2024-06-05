@@ -1,1 +1,0 @@
-Logo is 32x32, font is Rubik in mspaint, font is between 9 and 11 and centered as well as you can center using mspaint.

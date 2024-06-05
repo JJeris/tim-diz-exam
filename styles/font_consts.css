@@ -35,7 +35,7 @@
 }
 @media (min-width: 280px) {
     :root {
-        --body-font-size: 0.9em;
+        --body-font-size: 1em;
 
         --logo-font-size: 0.6em;
         --navbar-section-children-font-size: 0.65em;
@@ -90,7 +90,7 @@
 
 @media (min-width: 480px) {
     :root {
-        --body-font-size: 1.2em;
+        --body-font-size: 1.25em;
 
         --logo-font-size: 1em;
         --navbar-section-children-font-size: 1em;
@@ -245,54 +245,32 @@
 
 @media (min-width: 1366px) {
     :root {
-        --body-font-size: 2.2em;
-        --logo-font-size: 2.2em;
-        --navbar-section-children-font-size: 2.4em;
-        
-
+        --body-font-size: 1.5em;
+        --logo-font-size: 1.8em;
+        --navbar-section-children-font-size: 1.8em;
         --section-heading-font-size: 2.8em;
         --section-subheading-font-size: 2em;
-        --hero-section-horizontal-margin: 0.8em;
-        --hero-section-text-font-size: 2.2em;
-        --footer-font-size: 1.6em;
-
-
-        /* SIZING CONTS */
+        --hero-section-horizontal-margin: 0em;
+        --hero-section-text-font-size: 1.8em;
+        --footer-font-size: 1.4em;
         --sidebar-width: 8em;
-        --navbar-horizontal-padding: 2.4em;
-        --section-delimiter-horizontal-padding: 1.8em;
-
-        --hero-section-image-max-width: 800px;
-        --hero-section-top-margin: 2em;
-        
+        --navbar-horizontal-padding: 1em;
+        --section-delimiter-horizontal-padding: 1.6em;
+        --hero-section-image-max-width: 760px;
+        --hero-section-top-margin: 1em;
         --hero-section-horizontal-padding: 1em;
-
         --hero-text-delimiter-horizontal-margin: 1em;
-
-        --content-image-max-width: 600px;
-
-        --content-section-sidebar-padding: 8em; 
-    
-        --content-section-subsection-horizontal-padding: 36px;
-
-
-
-        --footer-horizontal-padding: 40px;
-
-        
+        --content-image-max-width: 580px;
+        --content-section-sidebar-padding: 8em;
+        --content-section-subsection-horizontal-padding: 6px;
+        --footer-horizontal-padding: 24px;
         --footer-link-margin: 0 4px;
         --footer-text-margin-top: 4px;
         --footer-link-img-width: 36px;
-
-
-        /* ssssssssssssss */
-
-        --theme-changer-size: 36px;
-        --section-heading-margin-bottom: 20px;
-
-        --content-image-bottom-padding: 0.8em;
-
-        --content-image-side-padding: 1.6em;
+        --theme-changer-size: 30px;
+        --section-heading-margin-bottom: 6px;
+        --content-image-bottom-padding: 1.2em;
+        --content-image-side-padding: 2em;
     }
 }
 
