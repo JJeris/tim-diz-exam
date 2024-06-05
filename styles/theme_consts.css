@@ -1,5 +1,5 @@
 :root {
-    --background-color-body-start: white;
+    --background-color-body-start: #ffffff;
     
     --background-navbar-color: #4797ff;
 
@@ -16,11 +16,11 @@
 }
 
 body.dark-mode {
-    --background-color-body-start: rgb(46, 46, 46);
+    --background-color-body-start: #2e2e2e;
 
     --background-navbar-color: #092243;
 
-    --background-holyGrail-content: rgb(36, 36, 36);
+    --background-holyGrail-content: #242424;
     --background-color-section: #e5e5e5ff;
 
     --text-color: #e5e5e5ff;
@@ -30,7 +30,7 @@ body.dark-mode {
     --highlight-color: #ea9999ff;
     
 
-    --background-color-footer: rgb(82, 82, 82);   
+    --background-color-footer: #525252;   
 
     --highlighted-text-color:  rgb(158, 231, 249);
 }
