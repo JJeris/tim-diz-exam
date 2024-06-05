@@ -24,7 +24,8 @@
 .content-section-text {
     /* font-size: var(--content-section-text-font-size); */
     font-size: var(--body-font-size);
-    text-align: justify; 
+    /* text-align: justify;  */
+    text-align: left;
     line-height: 1.6;
 }
 
