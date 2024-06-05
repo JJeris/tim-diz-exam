@@ -22,11 +22,29 @@
     /* padding-left: 12em; */
 }
 
-.logo {
+/* .logo {
     font-size: var(--logo-font-size);
     display: inline-block;
     height: 22px; 
     width: auto;  
+} */
+
+.logo {
+    font-size: var(--logo-font-size);
+    font-style: bold;
+    display: inline-block;
+    height: 22px;
+    width: auto;
+    line-height: 1.2;
+    /* border: 1px solid red; */
+}
+
+.logo .top-text,
+.logo .bottom-text {
+    /* border: 1px solid green; */
+    display: block;
+    text-align: left;
+    white-space: nowrap;
 }
 
 .logo-img {
@@ -34,11 +52,11 @@
     width: auto;
 }
 
-.nav-theme-changer {
+/* .nav-theme-changer {
     display: inline-block;
-    height: 30px;
-    width: 30px; /* Fixed width and height for responsiveness */
-    margin: 0 10px; /* Add margin if needed for spacing */
+    height: 20px;
+    width: 20px;
+    margin: 0 10px; 
 }
 
 .theme-changer {
@@ -46,6 +64,29 @@
     width: 100%;
     max-height: 100%;
     max-width: 100%;
+} */
+
+.nav-theme-changer {
+    display: inline-block;
+    margin: 0 10px; /* Add margin if needed for spacing */
+}
+
+.theme-changer {
+    height: var(--theme-changer-size);
+     /* 40px; */
+    width: var(--theme-changer-size);
+    /* 40px; Fixed width and height for responsiveness */
+    background-color: black;
+    border: 0px solid #000;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0s, color 0s;
+}
+
+.theme-changer.dark-mode {
+    background-color: white;
+    color: white;
 }
 
 .nav-delimiter {
@@ -58,6 +99,11 @@
     flex: 1;
     align-items: center;
 }
+
+@media (min-width: 340px) {
+    
+}
+
 
 .nav-section-child {
     font-size: var(--navbar-section-children-font-size);

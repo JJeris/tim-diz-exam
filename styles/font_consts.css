@@ -1,8 +1,10 @@
 :root {
+    --body-font-size: 1.2em;
     --logo-font-size: 1.6em;
-    --navbar-section-children-font-size: 1.2em;
+    --navbar-section-children-font-size: 1.8em;
     
     --section-heading-font-size: 2.8em;
+    --section-subheading-font-size: 2em;
     
     --hero-section-horizontal-margin: 1.6em;
     --hero-section-text-font-size: 1.6em;
@@ -10,20 +12,341 @@
     --content-section-text-font-size: 1.35em;
 
     --footer-font-size: 0.8em;
+
+    /* ******************** */
+    --sidebar-width: 32em;
+
+    --navbar-horizontal-padding: 0.28em;
+
+    --section-delimiter-horizontal-padding: 1.2em;
+    
+    --hero-section-image-max-width: 1000px;
+    --hero-section-horizontal-padding: 1em;
+
+    --content-image-max-width: 400px;
+    --content-section-sidebar-padding: 4em; 
+
+    --content-section-subsection-horizontal-padding: 20px;
+
+    --footer-horizontal-padding: 100px;
+    --footer-link-margin: 0 5px;
+    --footer-text-margin-top: 5px;
+    --footer-link-img-width: 56px;
+}
+@media (min-width: 280px) {
+    :root {
+        --body-font-size: 0.9em;
+
+        --logo-font-size: 0.6em;
+        --navbar-section-children-font-size: 0.65em;
+        
+        --section-heading-font-size: 1.6em;
+        --section-subheading-font-size: 1.35em;
+
+        --hero-section-horizontal-margin: 0.1em;
+        --hero-section-text-font-size: 0.74em;
+        
+        --footer-font-size: 1.1em;
+
+        /* SIZING CONTS */
+        --sidebar-width: 0em;
+    
+        --navbar-horizontal-padding: 0.4em;
+    
+        --section-delimiter-horizontal-padding: 0.5em;
+        
+        --hero-section-image-max-width: 200px;
+        
+        --hero-section-top-margin: 0.3em;
+        
+        --hero-section-horizontal-padding: 0.1em;
+    
+        --hero-text-delimiter-horizontal-margin: 0em;
+
+        --content-image-max-width: 160px;
+
+        --content-section-sidebar-padding: 0.5em; 
+    
+        --content-section-subsection-horizontal-padding: 1px;
+    
+        --footer-horizontal-padding: 20px;
+        --footer-link-margin: 0 5px;
+        --footer-text-margin-top: 5px;
+        --footer-link-img-width: 56px;
+
+
+
+
+        --theme-changer-size: 16px;
+        --section-heading-margin-bottom: 0px;
+
+
+        --content-image-bottom-padding: 0.6em;
+
+        --content-image-side-padding: 1.2em;
+    }
+
+}
+
+@media (min-width: 480px) {
+    :root {
+        --body-font-size: 1.2em;
+
+        --logo-font-size: 1em;
+        --navbar-section-children-font-size: 1em;
+        
+        --section-heading-font-size: 1.6em;
+        --section-subheading-font-size: 1.35em;
+
+        --hero-section-horizontal-margin: 0.1em;
+        --hero-section-text-font-size: 1em;
+        
+        --footer-font-size: 1.1em;
+
+        /* SIZING CONTS */
+        --sidebar-width: 0em;
+    
+        --navbar-horizontal-padding: 0.4em;
+    
+        --section-delimiter-horizontal-padding: 0.5em;
+        
+        --hero-section-image-max-width: 280px;
+        
+        --hero-section-top-margin: 0.6em;
+        
+        --hero-section-horizontal-padding: 0.4em;
+    
+        --hero-text-delimiter-horizontal-margin: 0.5em;
+
+        --content-image-max-width: 240px;
+
+        --content-section-sidebar-padding: 1em; 
+    
+        --content-section-subsection-horizontal-padding: 6px;
+    
+        --footer-horizontal-padding: 20px;
+        --footer-link-margin: 0 5px;
+        --footer-text-margin-top: 5px;
+        --footer-link-img-width: 56px;
+
+        --theme-changer-size: 16px;
+        --section-heading-margin-bottom: 10px;
+
+
+        --content-image-bottom-padding: 0.8em;
+
+        --content-image-side-padding: 1.4em;
+    }
+
 }
 
 
-@media (max-width: 1366px) {
+@media (min-width: 766px) {
     :root {
-        --logo-font-size: 1em;
-        --navbar-section-children-font-size: 0.8em;
+        --body-font-size: 1.8em;
+
+        --logo-font-size: 1.8em;
+        --navbar-section-children-font-size: 1.7em;
         
-        --section-heading-font-size: 1.6em;
+        --section-heading-font-size: 2.3em;
+        --section-subheading-font-size: 1.8em;
+
+        --hero-section-horizontal-margin: 0.6em;
+        --hero-section-text-font-size: 1.6em;
+        
+        --footer-font-size: 1.6em;
+
+        /* SIZING CONTS */
+        --sidebar-width: 0em;
+    
+        --navbar-horizontal-padding: 1em;
+    
+        --section-delimiter-horizontal-padding: 1.4em;
+        
+        --hero-section-image-max-width: 500px;
+        
+        --hero-section-top-margin: 1em;
+        
+        --hero-section-horizontal-padding: 1em;
+    
+        --hero-text-delimiter-horizontal-margin: 0.4em;
+
+        --content-image-max-width: 400px;
+
+        --content-section-sidebar-padding: 2em; 
+    
+        --content-section-subsection-horizontal-padding: 16px;
+    
+        --footer-horizontal-padding: 40px;
+        --footer-link-margin: 0 5px;
+        --footer-text-margin-top: 5px;
+        --footer-link-img-width: 56px;
+
+        --theme-changer-size: 24px;
+        --section-heading-margin-bottom: 14px;
+
+
+        --content-image-bottom-padding: 0.4em;
+
+        --content-image-side-padding: 1.4em;
+    }
+}
+
+@media (min-width: 1066px) {
+    :root {
+        --body-font-size: 2em;
+
+        --logo-font-size: 2em;
+        --navbar-section-children-font-size: 1.8em;
+        
+        --section-heading-font-size: 2.8em;
+        --section-subheading-font-size: 2em;
 
         --hero-section-horizontal-margin: 0.8em;
+        --hero-section-text-font-size: 1.6em;
         
-        --hero-section-text-font-size: 1.1em;
-        --content-section-text-font-size: 1em;
-        --footer-font-size: 0.6em;
+        --footer-font-size: 1.6em;
+    
+        /* SIZING CONTS */
+        --sidebar-width: 6em;
+    
+        --navbar-horizontal-padding: 2em;
+    
+        --section-delimiter-horizontal-padding: 2.2em;
+        
+        --hero-section-image-max-width: 600px;
+        
+        --hero-section-top-margin: 1em;
+        
+        --hero-section-horizontal-padding: 1em;
+    
+        --hero-text-delimiter-horizontal-margin: 1em;
+
+        --content-image-max-width: 500px;
+
+        --content-section-sidebar-padding: 4em; 
+    
+        --content-section-subsection-horizontal-padding: 24px;
+    
+        --footer-horizontal-padding: 40px;
+        --footer-link-margin: 0 5px;
+        --footer-text-margin-top: 5px;
+        --footer-link-img-width: 56px;
+
+
+        --theme-changer-size: 36px;
+        --section-heading-margin-bottom: 16px;
+
+        --content-image-bottom-padding: 1em;
+
+        --content-image-side-padding: 2em;
+    };
+}
+
+@media (min-width: 1366px) {
+    :root {
+        --body-font-size: 2.2em;
+        --logo-font-size: 2.2em;
+        --navbar-section-children-font-size: 2.4em;
+        
+
+        --section-heading-font-size: 2.8em;
+        --section-subheading-font-size: 2em;
+        --hero-section-horizontal-margin: 0.8em;
+        --hero-section-text-font-size: 2.2em;
+        --footer-font-size: 1.6em;
+
+
+        /* SIZING CONTS */
+        --sidebar-width: 8em;
+        --navbar-horizontal-padding: 2.4em;
+        --section-delimiter-horizontal-padding: 1.8em;
+
+        --hero-section-image-max-width: 800px;
+        --hero-section-top-margin: 2em;
+        
+        --hero-section-horizontal-padding: 1em;
+
+        --hero-text-delimiter-horizontal-margin: 1em;
+
+        --content-image-max-width: 600px;
+
+        --content-section-sidebar-padding: 8em; 
+    
+        --content-section-subsection-horizontal-padding: 36px;
+
+
+
+        --footer-horizontal-padding: 40px;
+
+        
+        --footer-link-margin: 0 4px;
+        --footer-text-margin-top: 4px;
+        --footer-link-img-width: 36px;
+
+
+        /* ssssssssssssss */
+
+        --theme-changer-size: 36px;
+        --section-heading-margin-bottom: 20px;
+
+        --content-image-bottom-padding: 0.8em;
+
+        --content-image-side-padding: 1.6em;
+    }
+}
+
+
+@media (min-width: 2000px) {
+    :root {
+        --body-font-size: 2.4em;
+        --logo-font-size: 3em;
+        --navbar-section-children-font-size: 3.2em;
+        
+
+        --section-heading-font-size: 4.2em;
+        --section-subheading-font-size: 2.8em;
+        --hero-section-horizontal-margin: 0.8em;
+        
+        --hero-section-text-font-size: 2.5em;
+        --footer-font-size: 2em;
+
+
+
+        
+        /* SIZING CONTS */
+        --sidebar-width: 12em;
+    
+        --navbar-horizontal-padding: 3em;
+    
+        --section-delimiter-horizontal-padding: 3.2em;
+        
+        --hero-section-image-max-width: 1000px;
+        
+        --hero-section-top-margin: 2em;
+        
+        --hero-section-horizontal-padding: 1em;
+    
+        --hero-text-delimiter-horizontal-margin: 2em;
+
+        --content-image-max-width: 700px;
+
+
+        --content-section-sidebar-padding: 12em; 
+    
+        --content-section-subsection-horizontal-padding: 36px;
+    
+        --footer-horizontal-padding: 50px;
+        --footer-link-margin: 0 5px;
+        --footer-text-margin-top: 5px;
+        --footer-link-img-width: 56px;
+
+        --theme-changer-size: 40px;
+        --section-heading-margin-bottom: 40px;
+
+        --content-image-bottom-padding: 0.8em;
+
+        --content-image-side-padding: 1.8em;
+
     }
 }

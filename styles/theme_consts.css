@@ -1,33 +1,24 @@
 :root {
-    --background-color-body-start: #B9B9F7;
-    /* Todo add this to the gradient */
-    --background-color-body-middle: white; 
-    --background-color-body-end: white;
+    --background-color-body-start: white;
     
-    --background-navbar-color: #b9b9f7;
+    --background-navbar-color: #4797ff;
 
-    --background-holyGrail-content: rgb(241, 241, 241);
+    --background-holyGrail-content: #f8f8f8;
     --background-color-section: #e5e5e5ff;
     
     --text-color: #1e1e1eff;
     
-    --section-delimiter-color: rgba(233, 229, 229, 0.948);
-    /* #6a6affff; */
-    --highlight-color: #ea9999ff;
+    --section-delimiter-color: #e9e5e5f2;
     
-
-    --background-color-footer: rgb(233, 233, 233);   
+    --background-color-footer: rgb(243, 243, 243);   
 }
 
 body.dark-mode {
-    --background-color-body-start: #1e1e1eff;
-    /* Todo add this to the gradient */
-    --background-color-body-middle: #1e1e1eff; 
-    --background-color-body-end: rgb(182, 182, 182);
+    --background-color-body-start: rgb(46, 46, 46);
 
-    --background-navbar-color: #1e1e1eff;
+    --background-navbar-color: #092243;
 
-    --background-holyGrail-content: rgb(19, 19, 19);
+    --background-holyGrail-content: rgb(36, 36, 36);
     --background-color-section: #e5e5e5ff;
 
     --text-color: #e5e5e5ff;

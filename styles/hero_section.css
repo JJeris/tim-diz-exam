@@ -13,6 +13,8 @@
     max-width: var(--hero-section-image-max-width); 
     /* Maintain aspect ratio */
     height: auto; 
+    margin-top: var(--hero-section-top-margin);
+    margin-bottom: 1.4em;
 }
 
 .hero-section-text {
@@ -21,5 +23,11 @@
     text-align: center; /* Center the text */
     margin-top: var(--hero-section-horizontal-padding);
     margin-bottom: var(--hero-section-horizontal-padding);
-    font-weight: bold;
+    /* font-weight: bold; */
+    /* white-space: nowrap; */
+}
+
+.hero-section-text-vertical-delimiter {
+    margin-left: var(--hero-text-delimiter-horizontal-margin);
+    margin-right: var(--hero-text-delimiter-horizontal-margin);
 }

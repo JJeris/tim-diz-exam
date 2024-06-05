@@ -6,13 +6,17 @@
 }
 
 .section-heading {
-    font-size: var(--section-heading-font-size)
-}
-
-.section-heading {
+    font-size: var(--section-heading-font-size);
     text-align: center;
     /* width: 100%; */
-    margin-bottom: 20px; 
+    margin-bottom: var(--section-heading-margin-bottom); 
+}
+
+.section-subheading {
+    font-size: var(--section-subheading-font-size);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 

@@ -14,6 +14,7 @@
   
 .holyGrail-nav, .holyGrail-ads {
     flex: 0 0 var(--sidebar-width);
+    opacity: 0;
 }
   
 .holyGrail-nav {
@@ -27,7 +28,7 @@
   
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1066px) {
     .holyGrail-body {
         flex-direction: row;
         flex: 1;
@@ -41,7 +42,7 @@
 }
   
   /* When the screen size goes under this, execute these rules. */
-@media (max-width: 768px) {
+@media (max-width:  1066px) {
     .holyGrail-nav, .holyGrail-ads {
         display: none;
     }

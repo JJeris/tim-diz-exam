@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
     <link rel="icon" href="./assets/jje-32x32-rubikF-12s.png" type="image/x-icon">
+
     <link rel="stylesheet" href="./styles/reset.css">
+
     <link rel="stylesheet" href="./styles/theme_consts.css">
+
     <link rel="stylesheet" href="./styles/sizing_consts.css">
-    <link rel="stylesheet" href="./styles/font_consts.css">
-    
+
+    <link rel="stylesheet" href="./styles/font_consts.css">    
     
     <link rel="stylesheet" href="./styles/text.css">
     
@@ -21,32 +24,88 @@
     <link rel="stylesheet" href="./styles/holygrail.css">
 
     <link rel="stylesheet" href="./styles/hero_section.css">
+
     <link rel="stylesheet" href="./styles/content_sections.css">
+
     <link rel="stylesheet" href="./styles/sections.css">
     
     <link rel="stylesheet" href="./styles/footer.css">
 
-    <link rel="stylesheet" href="styles.css">
     <title>Mans Ceļš uz Latvijas Universistāti | Johans Justs Eris</title>
 </head>
 
 <body class="holyGrail">
     <header class="navigation-bar">    
         <div class="nav-cell nav-logo">
-            <div class="logo">Ceļš uz <img src="./assets/black_oak.svg" alt="" class="logo-img" id="lu-logo"> | JJE</div>
+            <!-- <div class="logo">Ceļš uz <img src="./assets/black_oak.svg" alt="" class="logo-img" id="lu-logo"> | JJE</div> -->
+            <div
+                class="logo"
+            >
+                <span class="top-text">MANS CEĻŠ UZ</span>
+                <span class="bottom-text">LATVIJAS UNIVERSITĀTI</span>
+            </div>
+
         </div>
 
         <div class="nav-cell nav-delimiter"></div>
         
-        <div class="nav-cell nav-sections">
+        <div 
+            class="nav-cell nav-sections"
+            >
+            <!-- <div 
+                class="nav-cell nav-theme-changer">
+                
+                <img 
+                    src="./assets/black-circle-svgrepo-com.svg" 
+                    alt="Krāsu tēmas mainītājs" 
+                    title="Pārslēgt starp gaišo un tumšo tēmu." 
+                    class="theme-changer" 
+                    id="theme-toggle"
+                    onclick="changeTheme()"
+                >
+            </div> -->
             <div class="nav-cell nav-theme-changer">
-                <img src="./assets/black-circle-svgrepo-com.svg" alt="Change Theme" class="theme-changer" id="theme-toggle" onclick="changeTheme()">
+                <button 
+                    id="theme-toggle" 
+                    class="theme-changer" 
+                    onclick="changeTheme()">
+                </button>
+            </div>
+
+            
+            
+            <div 
+                class="nav-cell nav-section-child"
+            >
+                <a 
+                    class="navigation-redirect-link" 
+                    href="#intereses"
+                >
+                    Hobiji
+                </a>
             </div>
             
-            <div class="nav-cell nav-section-child"><a class="navigation-redirect-link" href="#intereses">Hobiji</a></div>
-            <div class="nav-cell nav-section-child"><a class="navigation-redirect-link" href="#vidusskola">Vidusskola</a></div>
-            <div class="nav-cell nav-section-child"><a class="navigation-redirect-link" href="#studenti">Studenti</a></div>
-            <div class="nav-cell nav-section-child"><a class="navigation-redirect-link" href="#contact">Kontakts</a></div>
+            <div 
+                class="nav-cell nav-section-child"
+            >
+                <a 
+                    class="navigation-redirect-link" 
+                    href="#vidusskola"
+                >
+                    Vidusskola
+                </a>
+            </div>
+            
+            <div 
+                class="nav-cell nav-section-child"
+            >
+                <a 
+                    class="navigation-redirect-link" 
+                    href="#augstskola"
+                >
+                    Augstskola
+                </a>
+            </div>
         </div>
 
         <aside class="holyGrail-nav"></aside> <!-- This should be empty -->
@@ -57,33 +116,59 @@
     <div class="holyGrail-body">
         <main class="holyGrail-content">
             <div id="hero-section">
-                <img src="./assets/lu_16052024_johans_justs_eris.jpg" alt="Hero image" title="Hero image">
+                <img 
+                    src="./assets/lu_16052024_johans_justs_eris.jpg" 
+                    alt="Latvijas Universitātes Raiņa Bulvāra 19 fakultātes ēka." 
+                    title="Latvijas Universitātes Raiņa Bulvāra 19 fakultātes ēka."
+                >
                 <div class="hero-section-text">
-                    MANS CEĻŠ | LATVIJAS UNIVERSITĀTE | DATORIKAS FAKULTĀTE
+                   MANS CEĻŠ 
+                   <span
+                       class="hero-section-text-vertical-delimiter"
+                   >|</span> 
+                   LATVIJAS UNIVERSITĀTE 
+                   <span
+                       class="hero-section-text-vertical-delimiter"
+                   >|</span>  
+                   DATORIKAS FAKULTĀTE
+
+                   
                 </div>
             </div>
 
             <div class="section-delimiter"></div>
 
             <div class="content-section" id="intereses">
-                <h1 class="section-heading">INTERESES UN HOBIJI</h1>
+                <h1 class="section-heading">HOBIJI</h1>
+                
+                <h2 class="section-subheading">SUBHEADING</h2>
                 <div class="content-section-subsection">
                     <div class="content-section-text">
-                        <img src="./assets/IMG_20240520_123454.jpg" alt="" class="content-section-image">
+                        <img 
+                            src="./assets/IMG_20240520_123454.jpg" 
+                            alt="Latvijas Universitātes Raiņa bulvāra 19 fakultātes 1. stāva gaitenis." 
+                            title="Latvijas Universitātes Raiņa Bulvāra 19 fakultātes 1. stāva gaitenis." 
+                            class="content-section-image">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius maiores rem repudiandae quod voluptate quisquam aperiam, a quae tenetur voluptatem cumque. Atque excepturi, a alias placeat officiis saepe nesciunt ipsum totam quisquam itaque facilis iste corrupti magni nam architecto vero incidunt ex at autem delectus officia perferendis aliquam eius eum! Quisquam, neque corrupti? Doloremque assumenda nesciunt sed commodi voluptatibus voluptas asperiores. Atque vero quibusdam nam nobis provident excepturi explicabo similique recusandae, laborum enim hic facilis sequi ex alias veniam eaque. Voluptate enim nulla natus labore! Deserunt, blanditiis. Consectetur cumque fugit in sint! Rerum voluptatem optio perspiciatis obcaecati, repellendus maxime.
                     </div>
                 </div>
 
+                <h2 class="section-subheading">SUBHEADING</h2>
                 <div class="content-section-subsection">
                     <div class="content-section-text">
-                        <!-- <img src="./assets/IMG_20240520_123454.jpg" alt="" class="content-section-image content-section-image-left"> -->
+                        
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius maiores rem repudiandae quod voluptate quisquam aperiam, a quae tenetur voluptatem cumque. Atque excepturi, a alias placeat officiis saepe nesciunt ipsum totam quisquam itaque facilis iste corrupti magni nam architecto vero incidunt ex at autem delectus officia perferendis aliquam eius eum! Quisquam, neque corrupti? Doloremque assumenda nesciunt sed commodi voluptatibus voluptas asperiores. Atque vero quibusdam nam nobis provident excepturi explicabo similique recusandae, laborum enim hic facilis sequi ex alias veniam eaque. Voluptate enim nulla natus labore! Deserunt, blanditiis. Consectetur cumque fugit in sint! Rerum voluptatem optio perspiciatis obcaecati, repellendus maxime.
                     </div>
                 </div>
 
+                <h2 class="section-subheading">SUBHEADING</h2>
                 <div class="content-section-subsection">
                     <div class="content-section-text">
-                        <img src="./assets/IMG_20240515_180636.jpg" alt="" class="content-section-image content-section-image-left">
+                        <img 
+                            src="./assets/IMG_20240515_180636.jpg" 
+                            alt="Latvijas Universitātes Aspazijas bulvāra 5 fakultātes ziemeļu-austrumu siena." 
+                            title="Latvijas Universitātes Aspazijas bulvāra 5 fakultātes ziemeļu-austrumu siena." 
+                            class="content-section-image content-section-image-left">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius maiores rem repudiandae quod voluptate quisquam aperiam, a quae tenetur voluptatem cumque. Atque excepturi, a alias placeat officiis saepe nesciunt ipsum totam quisquam itaque facilis iste corrupti magni nam architecto vero incidunt ex at autem delectus officia perferendis aliquam eius eum! Quisquam, neque corrupti? Doloremque assumenda nesciunt sed commodi voluptatibus voluptas asperiores. Atque vero quibusdam nam nobis provident excepturi explicabo similique recusandae, laborum enim hic facilis sequi ex alias veniam eaque. Voluptate enim nulla natus labore! Deserunt, blanditiis. Consectetur cumque fugit in sint! Rerum voluptatem optio perspiciatis obcaecati, repellendus maxime.
                     </div>
                 </div>
@@ -93,13 +178,16 @@
         
             <div class="content-section" id="vidusskola">
                 <h1 class="section-heading">VIDUSSKOLA</h1>
+
+                <h2 class="section-subheading">SUBHEADING</h2>
                 <div class="content-section-subsection">
                     <div class="content-section-text">
-                        <img src="./assets/IMG_20240522_121536.jpg" alt="" class="content-section-image">
+                        <img src="./assets/IMG_20240522_121536.jpg" alt="Rīgas 6. Vidusskolas durvis" class="content-section-image">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius maiores rem repudiandae quod voluptate quisquam aperiam, a quae tenetur voluptatem cumque. Atque excepturi, a alias placeat officiis saepe nesciunt ipsum totam quisquam itaque facilis iste corrupti magni nam architecto vero incidunt ex at autem delectus officia perferendis aliquam eius eum! Quisquam, neque corrupti? Doloremque assumenda nesciunt sed commodi voluptatibus voluptas asperiores. Atque vero quibusdam nam nobis provident excepturi explicabo similique recusandae, laborum enim hic facilis sequi ex alias veniam eaque. Voluptate enim nulla natus labore! Deserunt, blanditiis. Consectetur cumque fugit in sint! Rerum voluptatem optio perspiciatis obcaecati, repellendus maxime.
                     </div>
                 </div>
 
+                <h2 class="section-subheading">SUBHEADING</h2>
                 <div class="content-section-subsection">
                     <div class="content-section-text">
                         <!-- <img src="./assets/IMG_20240520_123454.jpg" alt="" class="content-section-image content-section-image-left"> -->
@@ -107,6 +195,7 @@
                     </div>
                 </div>
 
+                <h2 class="section-subheading">SUBHEADING</h2>
                 <div class="content-section-subsection">
                     <div class="content-section-text">
                         <img src="./assets/IMG_20240520_123542.jpg" alt="" class="content-section-image content-section-image-left">
@@ -117,8 +206,10 @@
 
             <div class="section-delimiter"></div>
 
-            <div class="content-section" id="studenti">
-                <h1 class="section-heading">CITI STUDENTI</h1>
+            <div class="content-section" id="augstskola">
+                <h1 class="section-heading">Augstskola</h1>
+
+                <h2 class="section-subheading">SUBHEADING</h2>
                 <div class="content-section-subsection">
                     <div class="content-section-text">
                         <img src="./assets/IMG_20240522_140828.jpg" alt="" class="content-section-image">
@@ -126,6 +217,7 @@
                     </div>
                 </div>
 
+                <h2 class="section-subheading">SUBHEADING</h2>
                 <div class="content-section-subsection">
                     <div class="content-section-text">
                         <!-- <img src="./assets/IMG_20240520_123454.jpg" alt="" class="content-section-image content-section-image-left"> -->
@@ -133,6 +225,7 @@
                     </div>
                 </div>
 
+                <h2 class="section-subheading">SUBHEADING</h2>
                 <div class="content-section-subsection">
                     <div class="content-section-text">
                         <img src="./assets/IMG_20240520_123319.jpg" alt="" class="content-section-image content-section-image-left">
@@ -146,28 +239,12 @@
     </div>
 
     <footer class="footer-bar" id="contact">
-        <div class="footer-links">
-            <div class="footer-link">
-                <a href="https://github.com/JJeris">
-                    <img src="./assets/Octicons-mark-github.svg" alt="">
-                </a>
-            </div>
-            <!-- <div class="footer-link">
-                <a href="https://lv.linkedin.com/in/johans-justs-eris-99012a222">
-                    <img src="./assets/LinkedIn_icon.svg.png" alt="">
-                </a>
-            </div> -->
-        </div>
-        <div class="footer-text">Copyright © 2024 Johans Justs Eris - All Rights Reserved.</div>
+        <div class="footer-text">© 2024 Johans Justs Eris</div>
     </footer>
     <script>
         function changeTheme() {
-            var img = document.getElementById("theme-toggle");
-            if (img.src.includes("black-circle-svgrepo-com.svg")) {
-                img.src = "./assets/white-circle-svgrepo-com.svg";
-            } else {
-                img.src = "./assets/black-circle-svgrepo-com.svg";
-            }
+            var button = document.getElementById("theme-toggle");
+            button.classList.toggle('dark-mode');
             document.body.classList.toggle('dark-mode'); 
         }
 
